@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.tudormihai.traveljournal.Fragments.TripsFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_trips" />
+
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="com.tudormihai.traveljournal.Fragments.FavoritesFragment"
+        android:label="@string/menu_favorites"
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.tudormihai.traveljournal.Fragments.AboutUsFragment"
+        android:label="@string/menu_about_us"
+        tools:layout="@layout/fragment_about_us" />
+
+    <activity
+        android:id="@+id/nav_add_new_trip"
+        android:name="com.tudormihai.traveljournal.Activities.NewTripActivity"
+        tools:layout="@layout/activity_new_trip" />
+
+
+</navigation>

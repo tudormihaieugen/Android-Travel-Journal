@@ -1,0 +1,24 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/dimgrey</item>
+        <item name="colorPrimaryDark">#0E1113</item>
+        <item name="colorAccent">#1569A2</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CollapsingToolbarLayoutExpandedTextStyle" parent="AppTheme">
+        <item name="android:textColor">@color/transparent</item>
+        <item name="android:textSize">0.1sp</item>
+    </style>
+
+</resources>
